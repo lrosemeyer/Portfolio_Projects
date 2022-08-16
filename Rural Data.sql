@@ -1,3 +1,5 @@
+-- This is an exploratory investigation of data from the U.S. Department of Labor.
+
 -- Rename FIPS columns to 'FIPS'.
 alter table classifications change FIPStxt FIPS bigint;
 alter table income change ï»¿FIPS FIPS bigint;
